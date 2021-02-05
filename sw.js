@@ -1,5 +1,5 @@
 let cacheName="hello-pwa";
-let filesToCache=['/','/index.html','/css/style.css','/js/script.js'];
+let filesToCache=['/','/index.html','/css/style.css','/js/script.js','/images/'];
 self.addEventListener("install",function(e){
   e.waitUntil(
     catches.open(cacheName).then(function(cache){
