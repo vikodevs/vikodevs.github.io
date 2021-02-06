@@ -1,11 +1,13 @@
 *{
   box-sizing: border-box;
-
+margin: 0;
+padding: 0;
 }
 body{
   font-family: 'Roboto' Sans-Serif;
   
 }
+h2 {position: absolute; margin: auto}
 html,.body{
   width: 100%;
   height: 100%;
@@ -22,11 +24,13 @@ html,.body{
    display: inline-flex;
    width:100%;
    height:100%;
+    overflow: hidden;
 }
 .slider{
    width: 100%;
    height: 100vh;
    flex-shrink: 0;
+  
 }
 .slider__img-box{
    position: relative;
